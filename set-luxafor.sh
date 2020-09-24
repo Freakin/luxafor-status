@@ -44,9 +44,9 @@ if [ -z $status ];
         exit 1
 else
     case $status in
-        inactive)
+        available)
             status_color="00ff00"
-            ;;
+            ;;    
         meeting)
             status_color="ff0000"
             ;;
